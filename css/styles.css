@@ -70,18 +70,21 @@ body {
 .header-menu a:focus {
   color: var(--accent-text-color);
 }
+.header-menu .curent a {
+  color: var(--accent-text-color);
+}
 .header li {
   position: absolute;
 }
-.header-item1 {
+.header-item-one {
   width: 49px;
   left: 0px;
 }
-.header-item2 {
+.header-item-two {
   width: 77px;
   left: 100px;
 }
-.header-item3 {
+.header-item-three {
   width: 68px;
   left: 227px;
 }
@@ -170,16 +173,16 @@ body {
   position: absolute;
   width: 270px;
 }
-.features-item1 {
+.features-item-one {
   left: 215px;
 }
-.features-item2 {
+.features-item-two {
   left: 515px;
 }
-.features-item3 {
+.features-item-three {
   left: 815px;
 }
-.features-item4 {
+.features-item-four {
   left: 1115px;
 }
 .features h3 {
@@ -220,13 +223,13 @@ body {
   width: 370px;
   height: 294px;
 }
-.our-service-item1 {
+.our-service-item-one {
   left: 0px;
 }
-.our-service-item2 {
+.our-service-item-two {
   left: 415px;
 }
-.our-service-item3 {
+.our-service-item-three {
   left: 815px;
 }
 .our-team {
@@ -261,16 +264,16 @@ body {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.our-team-item1 {
+.our-team-item-one {
   left: 215px;
 }
-.our-team-item2 {
+.our-team-item-two {
   left: 515px;
 }
-.our-team-item3 {
+.our-team-item-three {
   left: 815px;
 }
-.our-team-item4 {
+.our-team-item-four {
   left: 1115px;
 }
 .our-team h3 {
@@ -385,6 +388,7 @@ body {
 .btn-one:hover {
   background: #2196f3;
   color: white;
+  cursor: pointer;
 }
 .btn-two {
   width: 128px;
@@ -394,6 +398,7 @@ body {
 .btn-two:hover {
   background: #2196f3;
   color: white;
+  cursor: pointer;
 }
 .btn-three {
   width: 145px;
@@ -403,6 +408,7 @@ body {
 .btn-three:hover {
   background: #2196f3;
   color: white;
+  cursor: pointer;
 }
 .btn-four {
   width: 103px;
@@ -412,6 +418,7 @@ body {
 .btn-four:hover {
   background: #2196f3;
   color: white;
+  cursor: pointer;
 }
 .btn-five {
   width: 130px;
@@ -421,6 +428,7 @@ body {
 .btn-five:hover {
   background: #2196f3;
   color: white;
+  cursor: pointer;
 }
 .projects li {
   position: absolute;
@@ -453,22 +461,22 @@ body {
 
   color: var(--paragraph-text-color);
 }
-.project-left1 {
+.project-left-one {
   left: 0px;
 }
-.project-top1 {
+.project-top-one {
   top: 88px;
 }
-.project-left2 {
+.project-left-two {
   left: 400px;
 }
-.project-top2 {
+.project-top-two {
   top: 522px;
 }
-.project-left3 {
+.project-left-three {
   left: 800px;
 }
-.project-top3 {
+.project-top-three {
   top: 956px;
 }
 .img {
