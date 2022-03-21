@@ -9,7 +9,6 @@ body {
   font-family: 'Roboto', sans-serif;
   color: var(--primary-text-color);
   background: #ffffff;
-  width: 1600px;
 }
 .list {
   list-style: none;
@@ -21,7 +20,7 @@ body {
 }
 .header-logo {
   font-family: Raleway;
-  font-weight: bold;
+  font-weight: 700px;
   font-size: 26px;
   line-height: 31px;
   text-decoration: none;
