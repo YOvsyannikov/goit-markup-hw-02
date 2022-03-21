@@ -42,26 +42,23 @@ body {
   line-height: 16px;
   letter-spacing: 0.02em;
 }
-.header-menu li {
-  display: inline;
-}
-.header-menu a {
+.header-item-link {
   color: var(--title-text-color);
   text-decoration: none;
 }
-.header-menu a:hover,
-.header-menu a:focus {
+.header-item-link:hover,
+.header-item-link:focus {
   color: var(--accent-text-color);
 }
-.header-menu .curent a {
+.curent {
   color: var(--accent-text-color);
 }
-.header-contact a {
+.header-contact-link {
   color: var(--paragraph-text-color);
   text-decoration: none;
 }
-.header-contact a:hover,
-.header-contact a:focus {
+.header-contact-link:hover,
+.header-contact-link:focus {
   color: var(--accent-text-color);
 }
 .header-contact {
@@ -69,13 +66,7 @@ body {
   line-height: 16px;
   letter-spacing: 0.02em;
 }
-.header-email {
-}
-.header-tel {
-}
 .hero {
-  width: 1600px;
-  height: 600px;
   background: #2f303a;
 }
 .hero-title {
@@ -110,20 +101,8 @@ body {
   cursor: pointer;
   color: var(--white-text-color);
 }
-.features {
-}
-.features li {
-}
-.features-item-one {
-}
-.features-item-two {
-}
-.features-item-three {
-}
-.features-item-four {
-}
-.features h3 {
-  font-weight: bold;
+.features-title {
+  font-weight: 700px;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
@@ -131,7 +110,7 @@ body {
 
   color: var(--title-text-color);
 }
-.features p {
+.features-text {
   font-size: 14px;
   line-height: 24px;
 
@@ -140,8 +119,6 @@ body {
 
   color: var(--paragraph-text-color);
 }
-.our-service {
-}
 .our-service-title {
   font-weight: bold;
   font-size: 36px;
@@ -149,14 +126,6 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
-}
-.our-service li {
-}
-.our-service-item-one {
-}
-.our-service-item-two {
-}
-.our-service-item-three {
 }
 .our-team {
   background: #f5f4fa;
@@ -170,22 +139,12 @@ body {
 
   color: var(--title-text-color);
 }
-.our-team-list {
-}
 .our-team li {
   background: #ffffff;
   /* material shadow v1 */
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-}
-.our-team-item-one {
-}
-.our-team-item-two {
-}
-.our-team-item-three {
-}
-.our-team-item-four {
 }
 .our-team h3 {
   font-size: 16px;
@@ -207,16 +166,13 @@ body {
 
   color: var(--paragraph-text-color);
 }
-.our-team-name {
-}
-.our-team-specialisation {
-}
+/* Start of footer section */
 .footer {
   background: #2f303a;
 }
 .footer-logo {
   font-family: Raleway;
-  font-weight: bold;
+  font-weight: 700px;
   font-size: 26px;
   line-height: 31px;
   text-decoration: none;
@@ -230,24 +186,22 @@ body {
   color: white;
 }
 
-.footer-list a {
+.footer-list-item {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
   color: var(--primary-text-color);
 }
-.footer-address a {
+.footer-address-link {
   color: #ffffff;
-}
-.footer-email a {
-}
-.footer-tel a {
+  /* End of footer section */
 }
 /* CSS Styles for Portfolio page */
 .portfolio-title {
   display: none;
 }
+/* Я знаю что этого не должно быть, но поставил что бы смотрелось лучше и в линию. */
 .filters li {
   display: inline;
 }
@@ -271,12 +225,12 @@ body {
   color: white;
   cursor: pointer;
 }
-.projects li {
+.projects-item {
   background: #ffffff;
   border: 1px solid #eeeeee;
   box-sizing: border-box;
 }
-.projects-list h2 {
+.projects-title {
   font-weight: bold;
   font-size: 18px;
   line-height: 36px;
@@ -286,7 +240,7 @@ body {
 
   color: var(--title-text-color);
 }
-.projects-list p {
+.projects-text {
   font-size: 16px;
   line-height: 30px;
 
@@ -294,18 +248,6 @@ body {
   letter-spacing: 0.03em;
 
   color: var(--paragraph-text-color);
-}
-.project-left-one {
-}
-.project-top-one {
-}
-.project-left-two {
-}
-.project-top-two {
-}
-.project-left-three {
-}
-.project-top-three {
 }
 .img {
   width: 370px;
