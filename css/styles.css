@@ -19,11 +19,6 @@ body {
   border-bottom: 1px solid #ececec;
   text-align: center;
 }
-.header-nav {
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-}
 .header-logo {
   font-family: Raleway;
   font-weight: bold;
@@ -42,6 +37,14 @@ body {
 }
 .header-logo-span {
   color: var(--title-text-color);
+}
+.header-nav {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.header-menu li {
+  display: inline;
 }
 .header-menu a {
   color: var(--title-text-color);
@@ -247,6 +250,7 @@ body {
   display: none;
 }
 .filters li {
+  display: inline;
 }
 .btn {
   border-radius: 4px;
