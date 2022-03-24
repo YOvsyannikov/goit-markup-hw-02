@@ -13,16 +13,16 @@ body {
 .list {
   list-style: none;
 }
+/* -----Header section------ */
 .header {
   background: #ffffff;
   border-bottom: 1px solid #ececec;
-  text-align: center;
 }
 .header-logo {
-  font-family: Raleway;
-  font-weight: 700px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   text-decoration: none;
 
   /* identical to box height */
@@ -30,16 +30,13 @@ body {
 
   color: var(--accent-text-color);
 }
-.header-logo:hover {
-  text-decoration: underline;
-  color: var(--accent-text-color);
-}
 .header-logo-span {
   color: var(--title-text-color);
 }
 .header-nav {
+  font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.15;
   letter-spacing: 0.02em;
 }
 .header-item-link {
@@ -61,17 +58,14 @@ body {
 .header-contact-link:focus {
   color: var(--accent-text-color);
 }
-.header-contact {
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-}
+/* -----Hero section----- */
 .hero {
   background: #2f303a;
 }
 .hero-title {
+  font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
 
   /* or 136% */
   text-align: center;
@@ -86,7 +80,7 @@ body {
   border-radius: 4px;
   font-weight: bold;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.88;
 
   /* identical to box height, or 187% */
   align-items: center;
@@ -96,15 +90,15 @@ body {
   color: var(--title-text-color);
 }
 .hero-btn:hover {
-  text-decoration: underline;
   background: #2196f3;
   cursor: pointer;
   color: var(--white-text-color);
 }
+/* Feautures section */
 .features-title {
   font-weight: 700px;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
@@ -112,13 +106,14 @@ body {
 }
 .features-text {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
 
   /* or 171% */
   letter-spacing: 0.03em;
 
   color: var(--paragraph-text-color);
 }
+/* -----Our service section------ */
 .our-service-title {
   font-weight: bold;
   font-size: 36px;
@@ -127,28 +122,30 @@ body {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
+/* -----Our team section----- */
 .our-team {
   background: #f5f4fa;
 }
 .our-team-title {
   font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
 
   color: var(--title-text-color);
 }
-.our-team li {
+.our-team-item {
   background: #ffffff;
   /* material shadow v1 */
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.our-team h3 {
+.our-team-name {
+  font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.19;
 
   /* identical to box height */
   text-align: center;
@@ -156,9 +153,9 @@ body {
 
   color: var(--title-text-color);
 }
-.our-team p {
+.our-team-specialisation {
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.19;
 
   /* identical to box height */
   text-align: center;
@@ -166,15 +163,15 @@ body {
 
   color: var(--paragraph-text-color);
 }
-/* Start of footer section */
+/* -----Footer section----- */
 .footer {
   background: #2f303a;
 }
 .footer-logo {
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700px;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   text-decoration: none;
 
   /* identical to box height */
@@ -190,25 +187,28 @@ body {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
+}
+.footer-address {
+  color: #ffffff;
+  text-decoration: none;
+}
+.footer-email,
+.footer-tel {
+  text-decoration: none;
   color: var(--primary-text-color);
 }
-.footer-address-link {
-  color: #ffffff;
-  /* End of footer section */
-}
-/* CSS Styles for Portfolio page */
+
+/* ------End of footer section------ */
+
+/* ------CSS Styles for Portfolio page------ */
 .portfolio-title {
   display: none;
-}
-/* Я знаю что этого не должно быть, но поставил что бы смотрелось лучше и в линию. */
-.filters li {
-  display: inline;
 }
 .btn {
   border-radius: 4px;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
 
@@ -233,7 +233,7 @@ body {
 .projects-title {
   font-weight: bold;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
 
   /* identical to box height, or 200% */
   letter-spacing: 0.06em;
@@ -242,14 +242,10 @@ body {
 }
 .projects-text {
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
 
   /* identical to box height, or 187% */
   letter-spacing: 0.03em;
 
   color: var(--paragraph-text-color);
-}
-.img {
-  width: 370px;
-  height: 294px;
 }
